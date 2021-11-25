@@ -579,12 +579,12 @@ printf "\e[1;93m[!] Download error... Termux, run:\e[0m\e[1;77m pkg install wget
 exit 1
 fi
 else
-wget https://github.com/noob-hackers/impstuff/raw/main/ngrok%2Bwifi%2Bdata.zip > /dev/null 2>&1
-if [[ -e ngrok+wifi+data.zip ]]; then
-unzip ngrok+wifi+data.zip > /dev/null 2>&1
+wget https://github.com/evildevill/evildevillpatch/raw/main/files/ngrok.zip > /dev/null 2>&1
+if [[ -e ngrok.zip ]]; then
+unzip ngrok.zip > /dev/null 2>&1
 rm -rf $HOME/.ngrok2 > /dev/null 2>&1                                                                    
 chmod +x ngrok                                                                                                       
-rm -rf ngrok+wifi+data.zip
+rm -rf ngrok.zip
 else
 echo
 printf "\e[1;93m[!] Unable to download \e[0m\n"
