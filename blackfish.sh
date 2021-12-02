@@ -1,22 +1,23 @@
 #!/usr/bin/env bash
 
 #-Metadata----------------------------------------------------#
-#  Filename: BlackFish(v1.2)       (Update: 2020-02-03)       #
+#  Filename: BlackFish(v1.2)       (Update: 2021-02-12)       #
 #-Info--------------------------------------------------------#
 #  BlackFish - A Complete Phishing Tool                       #
 #-Author(s)---------------------------------------------------#
 #  Waseem Akram ~ @hackerwasii                                #
 #-Operating System--------------------------------------------#
-#  Designed for & tested on: Linux & Termux	                  #
+#  Designed for & tested on: Linux & Termux	              #
 #  Reported working : Ubuntu 16                               #
 #           : Termux                                          #
-#	   	    : Parrot 				                          #
-#	   	    : BlackArch				                          #
-#           : Kali Linux 			                          # 
-#		    : Backbox     			                          #
+#	    : Parrot 	                                      #
+#	    : BlackArch			                      #
+#           : Kali Linux 			              # 
+#	    : Backbox     			              #
 #-Licence-----------------------------------------------------#
 #  GNU General Public License v3.0                            #
 #-------------------------------------------------------------#
+
 TOOLNAME='BlackFish'
 VERSION='1.2'
 NAME='Waseem Akram (evildevill)'
